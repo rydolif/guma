@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>EsonStyle</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/main.min.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div  class="header__logo">
+            <a href="#">
+              EsonStyle
+            </a>
+          </div>
+
+
+          <nav class="header__nav nav">
+            <ul class="nav-list" id="menu">
+              <li class="click"><a href="#ems">О нас</a></li>
+              <li class="click"><a href="#number">Статистика</a></li>
+              <li class="click"><a href="#abonements">Описание</a></li>
+              <li class="click"><a href="#about">Отзывы</a></li>
+            </ul>
+
+            <div class="nav__phone">
+              <div class="phone">
+                <div class="phone__left">
+                  <a href="tel:+79175155555" class="phone__tel">+7 (987) 65-432-10</a>                  
+                </div>
+                <div class="phone__right">
+                  <a href="#" class="main-btn phone__callback callback_open">Заказать звонок</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <div class="header__call">
+            <div class="phone">
+              <div class="phone__left">
+                <a href="tel:+79175155555" class="phone__tel">+7 (987) 65-432-10</a>
+              </div>
+              <div class="phone__right">
+                <a href="#" class="main-btn phone__callback callback_open">Заказать звонок</a>
+              </div>
+            </div>
+          </div>
+
+          <button class="nav-toggle">
+            <span class="nav-toggle__line"></span>
+          </button>
+
+        </div>
+        <!-- /.header__wrap -->
+      </div>
+    </header>
+
+    <section class="first-block">
+      <div class="bottle parallax">
+        <img src="img/bottle.png" alt="bottle">
+      </div>
+
+      <div class="header-slider__text">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 click">
+              <h1>Идеальное тело, не выходя из дома всего за <span class="price">399грн.</span></h1>
+              <a href="#ems" class="main-btn">Узнать подробнее</a>
+            </div>
+            <div class="col-md-6">
+
+              <div class="main-form"> 
+                <p>Закажите фитнес-резинку<br><span>уже сейчас!</span> </p>
+                <form action="sendmail.php" method="post" class="form ask-form">
+                  <input type="hidden" name="subject" value="Оставьте заявку на бесплатную консультацию">
+
+                  <div class="form-group">
+                    <input type="text" class="form__field" name="name" required placeholder="Введите Ваше имя">
+                  </div>
+                  <div class="form-group">
+                    <input type="tel" class="form__field" name="phone" placeholder="+38 (___) ___-__-__" required>
+                  </div>
+                  
+                  <div class="form-group">
+                    <input type="submit" class="main-btn form__btn" name="submit" value="Заказать звонок">
+                  </div>
+                </form>
+              </div>
+              <!-- /.main-form -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ems" id="ems">
+      <div class="container">
+
+        <h2>5 фитнес-резинок разной упругости</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+          
+              <div class="flipster-block__list">
+                <div class="flipster-block__item">
+                  <img src="img/new/gum--1.png" alt="">
+                  <span>Очень жесткий</span>
+                </div>
+                <div class="flipster-block__item">
+                  <img src="img/new/gum--2.png" alt="">
+                  <span>Жесткий</span>
+                </div>
+                <div class="flipster-block__item">
+                  <img src="img/new/gum--3.png" alt="">
+                  <span>Средний</span>
+                </div>
+                <div class="flipster-block__item">
+                  <img src="img/new/gum--4.png" alt="">
+                  <span>Мягкий</span>
+                </div>
+                <div class="flipster-block__item">
+                  <img src="img/new/gum--5.png" alt="">
+                  <span>Очень мягкий</span>
+                </div>
+              </div>
+         
+          </div>
+          <div class="col-md-6">
+            <div class="run">
+              <img src="img/new/2.jpg" alt="run">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="namber" id="number">
+      <div class="container">
+        <h2>EsonStyle в цифрах</h2>
+        <div class="sub-title">Похудение - Формирование фигуры - Укрепление: <br>Видимый успех на всех уровнях</div>
+        <ul>
+          <li>
+            <p class="namber__percent">94%</p>
+            <p class="namber__sub-title">заметили явный эффект</p>
+            <p class="namber__content">Участники теста восторженно сообщают о явно заметных эффектах коррекции фигуры. Собственное тело воспринимается позитивно.</p>
+          </li>
+          <li>
+            <p class="namber__percent">94%</p>
+            <p class="namber__sub-title">подтянулись</p>
+            <p class="namber__content">Участники почувствовали себя после тренировок более подтянутыми.</p>
+          </li>
+          <li>
+            <p class="namber__percent">-2,3см</p>
+            <p class="namber__sub-title">в животе</p>
+            <p class="namber__content">У женщин сократился охват живота на 2,3см при одновременном приросте мышц на 1-2 см на ногах, груди и руках.</p>
+          </li>
+          
+          <li>
+            <p class="namber__percent">-4%</p>
+            <p class="namber__sub-title">содержание жира</p>
+            <p class="namber__content">в организме уменьшилось за 6 недель проведения тренировок </p>
+          </li>
+          <li>
+            <p class="namber__percent">1,5см</p>
+            <p class="namber__sub-title">стройнее</p>
+            <p class="namber__content">Женщины стали стройнее в среднем на 1.5 см в талии</p>
+          </li>
+          <li>
+            <p class="namber__percent">-6,5</p>
+            <p class="namber__sub-title">килограмм</p>
+            <p class="namber__content">Участники, страдавшие от избыточного веса, похудели на 6,5 кг, сократили жир на 9%, уменьшили размер талии на 6,5 см и обхват плеча на 2 см после 13 недель проведения тренировок. </p>
+          </li>
+        
+        </ul>
+      </div>
+    </section>
+
+    <section class="flipster-block ems__content" id="abonements">
+      <div class="container">
+        <h2>Что такое EsonStyle?</h2>
+
+        <p>Фитнес резинки EsonStyle из высококачественного латекса родом из США!</p>
+        <p>С резинками можно заниматься в любом удобном для Вас месте! Подходят для занятий дома, тренировок на улице, фитнеса, пилатеса, йоги, упражнений на растяжку, кроссфита.</p>
+
+        <div class="row">
+          <div class="col-lg-6">
+              <h3>6 причин-целей почему нужно купить фитнес резинки EsonStyle:</h3>
+              <ul>
+                <li>Ноги сделать стройнее, а мышцы более упругие</li>
+                <li>Накачать и подтянуть ягодицы</li>
+                <li>Придать рельеф рукам и лопаткам</li>
+                <li>Взять с собой в путешествие</li>
+                <li>Тренироваться в удобное для себя время</li>
+                <li>Безопасно и не травмоопасно в отличие от гантель, гирь, штанги</li>
+              </ul>
+          </div>
+          <div class="col-lg-6">
+            <h3>Любая ваша цель достижима:</h3>
+            <ul>
+              <li>Похудеть быстро и эффективно</li>
+              <li>Избавиться от целлюлита</li>
+              <li>Повысить упругость и тонус кожи</li>
+              <li>Увеличить мышечную массу и приобрести красивый мышечный рельеф</li>
+              <li>«подсушиться»</li>
+              <li>Восстановиться после родов</li>
+              <li>Улучшить осанку</li>
+              <li>Стать сильнее и выносливее</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+    <section class="reviews" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Отзывы</h2>
+            <div class="swiper-container reviews-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper__list">
+                  <div class="girl"><img src="img/1.jpg" alt="girl"><p class="kate">Екатерина</p></div>
+                  <p>Очень помогают в разминке и в тренировке когда уезжаю и не могу пойти в зал. Отличная сумочка для транспортировки. В общем довольна) а вот для начинающих это вообще супер пупер)) я очень жалею что у меня их не было ранее (Кстати, большинство моих знакомых не верили что это очень классная вещь пока не дала попробовать) не сомневайтесь, берите и будьте здоровы душой и телом ))</p>
+                </div>
+                <div class="swiper-slide swiper__list">
+                  <div class="girl"><img src="img/2.jpg" alt="girl"><p class="kate">Ирина</p></div>
+                  <p>Качество хорошее, удобно использовать дома, хорошо подходит для новичков)</p>
+                </div>
+                <div class="swiper-slide swiper__list">
+                  <div class="girl"><img src="img/3.jpg" alt="girl"><p class="kate">Елена</p></div>
+                  <p>Ранее узнала о лентах от своего тренера, он давал разминаться перед нагрузками, через неделю купила свои личные т.к. было не ловко просить и понимала что хочу исключительно свои т.к. и дома можно заниматься. Кстати, после этого муж себе тоже купил и начал делать зарядку))</p>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows -->
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section class="test">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Упражнения</h2>
+            <div class="swiper-container test-slider">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide"><img src="img/new/slide--1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/new/slide--2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/new/slide--3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/new/slide--4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/new/slide--5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/new/slide--6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/new/slide--7.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/new/slide--8.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/new/slide--9.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/new/slide--10.jpg" alt=""></div>
+
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows -->
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+          </div>
+          <div class="col-md-7">
+            <div class="offer__content">
+              <h2>Хватит мечтать, будь мечтой!</h2>
+              <p>Закажите фитнес-резинку уже сейчас!<span>699</span> <strong>399</strong> гривен</p>
+              <a href="#" class="order_open main-btn">Заказать сейчас</a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+
+            <div class="footer__logo">
+              <a href="#">
+                EsonStyle
+              </a>
+            </div>
+            <ul class="nav-list click">
+              <li class="click"><a href="#ems">О нас</a></li>
+              <li class="click"><a href="#ems">Статистика</a></li>
+              <li class="click"><a href="#abonements">Описание</a></li>
+              <li class="click"><a href="#about">Отзывы</a></li>
+            </ul>
+
+          <div class="footer__call">
+            <div class="phone">
+              <div class="phone__left">
+                <a href="tel:+79175155555" class="phone__tel">+7 (987) 65-432-10</a>                
+              </div>
+              <div class="phone__right">
+                <a href="#" class="main-btn phone__callback callback_open">Заказать звонок</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <p class="copyright">2019 &copy; | All rights reserved.</p>
+      </div>
+
+    </footer>
+
+    <!-- modal -->
+
+      <div id="callback" class="modal">
+        <button class="callback_close modal__close">
+          Close
+          <span class="modal__close-line"></span>
+        </button>
+        <h3>Обратный звонок</h3>
+        <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+        <form action="sendmail.php" class="row form callback-form" method="post">
+          <input type="hidden" name="subject" value="Обратный звонок">
+          <div class="col-sm-12 form-group">
+            <input type="text" class="form__field" name="name" placeholder="Ваше имя" required>
+          </div>
+          <div class="col-sm-12 form-group">
+            <input type="tel" name="phone" class="form__field" required placeholder="+38 (___) ___-__-__" maxlength="19">
+          </div>
+          <div class="col-sm-12 form-group">
+            <input type="submit" class="main-btn" name="submit" value="Заказать звонок">
+          </div>
+        </form>
+      </div>
+
+      <div id="order" class="modal">
+        <button class="order_close modal__close">
+          Close
+          <span class="modal__close-line"></span>
+        </button>
+        <h3>Заказать сейчас</h3>
+        <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+        <form action="sendmail.php" class="row form callback-form" method="post">
+          <input type="hidden" name="subject" value="Обратный звонок">
+          <div class="col-sm-12 form-group">
+            <input type="text" class="form__field" name="name" placeholder="Ваше имя" required>
+          </div>
+          <div class="col-sm-12 form-group">
+            <input type="tel" name="phone" class="form__field" required placeholder="+38 (___) ___-__-__" maxlength="19">
+          </div>
+          <div class="col-sm-12 form-group">
+            <input type="submit" class="main-btn" name="submit" value="Заказать звонок">
+          </div>
+        </form>
+      </div>
+
+      <div id="thanks" class="modal">
+        <button class="thanks_close modal__close">
+          Close
+          <span class="modal__close-line"></span>
+        </button>
+        <h3>Спасибо за заказ</h3>
+        <p>Скоро мы Вам перезвоним!</p>
+      </div>
+
+    <!-- modal-end -->
+
+
+    <script src="js/scripts.min.js"></script>
+
+
+  </body>
+</html>
